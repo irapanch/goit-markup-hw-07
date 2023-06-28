@@ -69,7 +69,8 @@
         </address>
 
         <!-- ========= header mobile MODAL  ============ -->
-        <div class="header-mobile-modal js-menu-container">
+  
+        <div class="header-mobile-modal js-menu-container" id="mobile-menu">
           <div class="header-mobile-modal-container">
             <button
               type="button"
@@ -233,15 +234,17 @@
           <ul class="activities-list list">
             <li class="activities-item">
               <img
-                class="activities-image"
-                src="./images/activities/img1.jpg"
-                alt="Monitor"
-                width="360"
-                height="300"
+              srcset="./images/activities/img1@2x.jpg 2x"
+              class="activities-image"
+              src="./images/activities/img1.jpg"
+              alt="Monitor"
+              width="360"
+              height="300"
               />
             </li>
             <li class="activities-item">
               <img
+                srcset="./images/activities/img2@2x.jpg 2x"
                 class="activities-image"
                 src="./images/activities/img2.jpg"
                 alt="Smartphones"
@@ -250,7 +253,8 @@
               />
             </li>
             <li class="activities-item">
-              <img
+              <img 
+              srcset="./images/activities/img3@2x.jpg 2x"
                 class="activities-image"
                 src="./images/activities/img3.jpg"
                 alt="Smartphone and laptop"
@@ -270,6 +274,7 @@
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="./images/employees/card1@2x.jpg 2x"
                 src="./images/employees/card1.jpg"
                 alt="The person"
                 width="264"
@@ -313,6 +318,7 @@
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="./images/employees/card2@2x.jpg 2x"
                 src="./images/employees/card2.jpg"
                 alt="The person"
                 width="264"
@@ -356,6 +362,7 @@
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="./images/employees/card3@2x.jpg 2x"
                 src="./images/employees/card3.jpg"
                 alt="The person"
                 width="264"
@@ -399,6 +406,7 @@
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="./images/employees/card4@2x.jpg 2x"
                 src="./images/employees/card4.jpg"
                 alt="The person"
                 width="264"
@@ -443,7 +451,7 @@
         </div>
       </section>
       <!-- =============CUSTOMER=========== -->
-      <!-- <section class="customers-body">
+      <section class="customers-body">
         <div class="container">
           <h2 class="customers-title title-second">Customers</h2>
           <ul class="customers-list list">
@@ -491,53 +499,55 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- =======  /MAIN ========== -->
     <!-- =====FOOTER ============-->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-logo-part">
-          <a class="footer-logo logo link" href="./index.html"
-            >web<span class="logo-light">Studio</span></a
-          >
-          <p class="footer-text text text-light">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="footer-media-part">
-          <p class="footer-title text">Social media</p>
-          <ul class="footer-icon-list list">
-            <li class="footer-icon-item">
-              <a class="footer-icon-link link" href="">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-icon-item">
-              <a class="footer-icon-link link" href="">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-icon-item">
-              <a class="footer-icon-link link" href="">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-icon-item">
-              <a class="footer-icon-link link" href="">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+        <div class="footer-wrap">
+          <div class="footer-logo-part">
+            <a class="footer-logo logo link" href="./index.html"
+              >web<span class="logo-light">Studio</span></a
+            >
+            <p class="footer-text text text-light">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-media-part">
+            <p class="footer-title text">Social media</p>
+            <ul class="footer-icon-list list">
+              <li class="footer-icon-item">
+                <a class="footer-icon-link link" href="">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-icon-item">
+                <a class="footer-icon-link link" href="">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-icon-item">
+                <a class="footer-icon-link link" href="">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-icon-item">
+                <a class="footer-icon-link link" href="">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="footer-form-part">
           <p class="footer-title text">Subscribe</p>
@@ -562,7 +572,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- ========= MODAL WinDOW -->
     <div class="backdrop is-hidden" data-modal>
       <div class="backdrop-modal">
